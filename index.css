@@ -6,7 +6,6 @@ h1.frontpage {
     background-color: black;
     margin: 0;
     color: greenyellow;
-    
 }
 
 html, body, header {
@@ -30,10 +29,22 @@ a.stage {
 	font-size: 20px;
 }
 
-div {
+div.nav {
 	text-align: center;
 	font-size: 1.15em;
-	margin: 3px;
+	margin: 10px;
 	text-decoration: none;
+	line-height: 2.5em;
 }
+
+div {
+	background-color: white;
+	border: 1px solid blue;	
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: 3;
+}
+
 
