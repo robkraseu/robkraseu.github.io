@@ -42,16 +42,18 @@ a:hover {
 	transform: translate(-50%, -50%);
 }
 
+/* ################button################## */
+
 button {
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     border: none;
     text-align: center;
-    font-size: 12px;
-    padding: 12px;
-    width: 120px;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    width: 7.5rem;
     transition: all 0.5s;
-    margin: 5px;
+    margin: 0.313rem;
     cursor: pointer;
     background-color: #232b2b;
     border: 1px solid #F88379;
@@ -70,12 +72,12 @@ button span:after {
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: -1.25rem;
     transition: 0.5s;
 }
 
 button:hover span {
-    padding-right: 25px;
+    padding-right: 1.563rem;
 }
 
 button:hover span:after {
