@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     font-family: monospace;
 	background-color: #0e1111;
-	font-size: 15px;
+	font-size: 1rem;
 	color: #f9f1f1;
 	overflow: hidden;
 }
@@ -11,7 +11,7 @@ html, body {
 div.nav {
 	text-align: left;
 	font-size: 1.15em;
-	margin: 10px;
+	margin: 0.625rem;
 	text-decoration: none;
 	line-height: 2.5em;
 }
