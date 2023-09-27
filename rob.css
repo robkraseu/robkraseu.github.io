@@ -105,10 +105,11 @@ h1 {
 }
 
 .one-row {
+    width: 50%;
+    margin: 0 auto;
     display: flex;
 }
 
 .certificates, .skills {
-    margin-top: 2%;
-    margin-left: 20%;
+    flex: 1;
 }
