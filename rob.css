@@ -6,7 +6,34 @@
     background: #FAF9F6;
 }
 
-body {overflow-x: hidden;}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
 
 div.top {
     background: #1f242d;
@@ -126,4 +153,8 @@ h1 {
 .education li {
     padding: 2%;
     list-style: none;
+}
+
+.align-right {
+    text-align: right;
 }
